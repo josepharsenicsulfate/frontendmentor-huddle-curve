@@ -1,0 +1,90 @@
+svg.wave-mobile{
+    display: block;
+}
+
+svg.wave-desktop{
+    display: none;
+}
+
+.footer{
+    padding: 50px 20px;
+    margin: -1px 0 0 0;
+
+    text-align: start;
+
+    background-color: var(--darkcyan-);
+    color: var(--paleblue-);
+}
+
+.footer h4{
+    padding: 10px 0;
+    margin: 0;
+
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+.footer p{
+    padding: 0;
+    margin: 0;
+
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.footer section div div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.footer section div div button{
+    width: 150px;
+    height: 40px;
+
+    margin: 5px 0;
+    padding: 0;
+
+    border: none;
+    border-radius: 5px;
+
+    background: var(--pink-);
+    color: var(--paleblue-);
+    font-size: 15px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer section div div button:hover{
+    cursor: pointer;
+    background-color: var(--lightpink-);
+}
+
+input[type="text"]{
+    width: 350px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+    outline:none;
+
+    margin: 5px 0;
+}
+
+i{
+    font-size: 25px;
+    margin: 25px 0 25px 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 376px){
+    svg.wave-mobile{
+        display: none;
+    }
+
+    svg.wave-desktop{
+        display: block;
+    }
+}
