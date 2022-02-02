@@ -7,7 +7,7 @@ svg.wave-desktop{
 }
 
 .footer{
-    padding: 50px 20px;
+    padding: 50px 25px;
     margin: -1px 0 0 0;
 
     text-align: start;
@@ -17,32 +17,34 @@ svg.wave-desktop{
 }
 
 .footer h4{
-    padding: 10px 0;
+    padding: 0;
     margin: 0;
 
     text-transform: uppercase;
     font-size: 19px;
 }
 
-.footer p{
-    padding: 0;
+.footer .long-text{
+    padding: 20px 0;
     margin: 0;
 
     line-height: 1.7;
     font-size: 15px;
 }
 
-.footer section div div{
+section.footer div div{
+    padding-bottom: 75px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
-.footer section div div button{
+section.footer div div button{
     width: 150px;
     height: 40px;
 
-    margin: 5px 0;
+    margin: 7px 0;
     padding: 0;
 
     border: none;
@@ -51,11 +53,12 @@ svg.wave-desktop{
     background: var(--pink-);
     color: var(--paleblue-);
     font-size: 15px;
+    font-weight: 600;
 
     font-family: 'Open Sans', sans-serif;
 }
 
-.footer section div div button:hover{
+section.footer div div button:hover{
     cursor: pointer;
     background-color: var(--lightpink-);
 }
@@ -68,7 +71,31 @@ input[type="text"]{
     border-radius: 5px;
     outline:none;
 
-    margin: 5px 0;
+    margin: 7px 0;
+    padding: 0 15px;
+
+    font-size: 15px;
+}
+
+section.footer div img{
+    width: 60%;
+}
+
+section.footer div p img{
+    width: 18px;
+
+    margin-right: 20px;
+
+    vertical-align: middle;
+}
+
+.icons{
+    height: 50px;
+    position: relative;
+    left: -10px;
+
+    padding: 0;
+    margin: 0;
 }
 
 i{
