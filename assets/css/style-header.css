@@ -1,0 +1,26 @@
+header{
+    padding: 30px 25px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 100px;
+    height: max-content;
+}
+
+header button{
+    width: 90px;
+    height: 27px;
+    
+    border: 1px solid var(--pink-);
+    border-radius: 16px;
+    background: transparent;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: var(--pink-);
+}

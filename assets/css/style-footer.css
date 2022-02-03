@@ -6,7 +6,7 @@ svg.wave-desktop{
     display: none;
 }
 
-.footer{
+section.footer{
     padding: 50px 25px;
     margin: -1px 0 0 0;
 
@@ -16,7 +16,7 @@ svg.wave-desktop{
     color: var(--paleblue-);
 }
 
-.footer h4{
+section.footer h4{
     padding: 0;
     margin: 0;
 
@@ -24,7 +24,7 @@ svg.wave-desktop{
     font-size: 19px;
 }
 
-.footer .long-text{
+section.footer .long-text{
     padding: 20px 0;
     margin: 0;
 
@@ -92,7 +92,6 @@ section.footer div p img{
 .icons{
     height: 50px;
     position: relative;
-    left: -10px;
 
     padding: 0;
     margin: 0;
@@ -113,5 +112,31 @@ i{
 
     svg.wave-desktop{
         display: block;
+    }
+
+    section.footer{
+        display: flex; 
+        flex-flow: row-reverse wrap; 
+        padding: 120px 120px 75px 120px;
+    }
+
+    section.footer div{
+        width: 50%;
+    }
+
+    section.footer div .long-text{
+        width: 60%;
+    }
+
+    section.footer div div{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    input[type="text"]{
+        width: 300px;
+        margin-right: 25px;
     }
 }
