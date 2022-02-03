@@ -75,3 +75,61 @@ h2{
 .bottom{
     padding: 50px 0;
 }
+
+@media screen and (min-width: 376px){
+    .main{
+        padding: 75px;
+        font-size: 20px;
+    }
+
+    .main .intro{
+        display: flex; 
+        flex-flow: column wrap; 
+        align-items: center;
+    }
+
+    .main .intro h2{
+        font-size: 50px;
+    }
+
+    .main .intro p{
+        font-size: 25px; width: 60%;
+    }
+
+    .main section button{
+        width: 325px; height: 70px; border-radius: 35px; font-size: 18px;
+    }
+
+    .content{
+        display: flex; 
+        flex-flow: column wrap;
+    }
+
+    .row-rev{
+        display: flex; 
+        flex-flow: row-reverse wrap; 
+        justify-content: space-between;
+    }
+
+    .row{
+        display: flex; 
+        flex-flow: row wrap; 
+        justify-content: space-between;
+    }
+
+    .content div div{
+        width: 50%;
+    }
+
+    .content div div img{
+        width: 50%;
+    }
+
+    .content div div h4{
+        font-size: 30px;
+    }
+
+    .content div div h4, .content div div p{
+        text-align: start;
+    }
+}
